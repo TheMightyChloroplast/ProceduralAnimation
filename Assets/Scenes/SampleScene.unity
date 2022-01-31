@@ -2172,10 +2172,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 489129628}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00afa02f76e24044b9ae7fdd530ed4c9, type: 3}
+  m_Script: {fileID: 11500000, guid: e7359c443e8c65e489394fddd554710a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  leftTarget: {fileID: 1353009077}
+  rightTarget: {fileID: 897490719}
+  _footSpacing: 2
 --- !u!136 &489129631
 CapsuleCollider:
   m_ObjectHideFlags: 0
