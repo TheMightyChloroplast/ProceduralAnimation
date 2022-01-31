@@ -2177,9 +2177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftTarget: {fileID: 1353009077}
   rightTarget: {fileID: 897490719}
+  _footSpacing: 2
   movementSpeed: 1
   stepHeight: 0.2
-  _footSpacing: 2
 --- !u!136 &489129631
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2231,7 +2231,7 @@ GameObject:
   - component: {fileID: 547324591}
   - component: {fileID: 547324592}
   m_Layer: 0
-  m_Name: RightFootRig ;-;
+  m_Name: 'RightFootRig '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
